@@ -1,0 +1,475 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #4a1d00;
+    height:100%;
+    width:100%
+}
+
+body{
+   position:relative;
+}
+  
+.wrapper{
+    overflow-x:hidden;
+}
+.background{
+    height: auto;
+}
+
+.home{
+    height: auto;
+    width: auto;
+}
+
+/* Photo Banner */
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: transparent;
+    z-index: 0 !important;
+    position: relative;
+    
+}
+
+.photobanner{
+    width: 3550px;
+    margin-bottom: 5px;
+    font-size: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    
+}
+
+.photobanner img{
+	margin-bottom: 10px;
+	margin-right: 5px;
+	height: 100vh;
+    opacity: 0.4;
+}
+
+.photobanner img  {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+ 
+
+
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+            
+}
+ 
+@keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+
+.heading{
+    z-index: 1;
+    position: absolute;
+    padding: 10px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 2vh;
+}
+
+.name{
+    margin-top:2vw;
+}
+
+h1{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 7vw;
+}
+
+label{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 7vh;
+}
+
+input{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+}
+
+
+
+
+h2{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 3vw;
+    word-spacing: 0.5vw;
+}
+
+.instructions{
+    padding: 5vh 15vw;
+}
+
+.title{
+    word-spacing: 3vw;
+}
+
+#text{
+    font-family: 'Gibson', sans-serif;
+    color: rgb(150, 92, 92);
+    margin: auto;
+    text-align:center;
+    font-size: 5vh;
+    word-spacing: 0.5vw;
+    font: 3em sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 80vw;
+    padding: 1em;
+    background-color: #834f30;
+    border-radius: 1em;
+    position: absolute;
+    z-index:1;
+    padding: 10px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+  }
+  
+  input,
+  textarea {
+    font-family: 'Gibson', sans-serif;
+    color: #4a1d00;
+    margin: auto;
+    text-align:center;
+    font-size: 3vw;
+    box-sizing: border-box;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px;
+  }
+  
+  button {
+    margin-left: .5em;
+  }
+
+  #name{
+      box-sizing: border-box;
+    }
+
+
+p{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 4vw;
+    word-spacing: 0.5vw;
+}
+
+a, button{
+    font-family: 'Gibson', sans-serif;
+    color:#834f30;
+    margin: auto;
+    text-align:center;
+    word-spacing: 0.5vw;
+
+}
+
+.file{
+    margin-left:11vw;
+}
+
+#file-upload-button{
+    color:#834f30;
+}
+
+.button1:hover{
+    color:#000!important;
+    background-color:#ccc!important
+}
+
+.button1{
+    background-color:white;
+}
+
+.block{
+    display:block;
+    width:30vw;
+}
+
+.black,.-hover-black:hover{
+    color:#834f30;
+    background-color:white!important;
+}
+
+.submit{
+    font-size: 5vw;
+    text-decoration: none;
+    text-align: center; 
+    margin:auto; 
+}
+
+
+#ty{
+    position:absolute;
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 10vh;
+    left: 0; 
+     right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:20vh;
+    z-index:1;
+}
+
+
+h4{
+    position:absolute;
+    font-family: 'Gibson', sans-serif;
+    color: #835337;
+    margin: auto;
+    text-align:center;
+    font-size: 2vh;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:90vh;
+    z-index:1;
+}
+
+.input#file.feedback-input{
+    font-size:4vh;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color:white;
+    font-family: 'Gibson', sans-serif;
+    color:#834f30;
+    margin: auto;
+    text-align:center;
+    word-spacing: 0.5vw;
+    font-size: 2.5vw;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+
+@media  (max-width: 700px) {
+    h1{
+        font-size:10vw;
+    }
+    h2{
+        font-size:6vw;
+    }
+    h3{
+        font-size:8vw;
+    }
+
+    h4{
+        position:absolute;
+        font-family: 'Gibson', sans-serif;
+        color: #835337;
+        margin: auto;
+        text-align:center;
+        font-size: 1.5vh;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top:80vh;
+        z-index:1;
+    }
+
+    #ty{
+        position:absolute;
+        font-family: 'Gibson', sans-serif;
+        color: white;
+        margin: auto;
+        text-align:center;
+        font-size: 8vh;
+        left: 0; 
+         right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top:15vh;
+        z-index:1;
+    }
+
+    .twitter-share-button{
+        position:absolute !important;
+        z-index: 1 !important;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top:50vh !important;
+    }
+
+    .instructions{
+        padding: 5vh 2vw;
+    }
+
+    .p{
+        font-size:8vw;
+    }
+
+    input,
+    textarea {
+      font-family: 'Gibson', sans-serif;
+      color: #4a1d00;
+      margin: auto;
+      text-align:center;
+      font-size: 6vw;
+      box-sizing: border-box;
+      width:80vw;
+    }
+
+    .file{
+        margin-left:11vw;
+        font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 4vw;
+    box-sizing: border-box;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    padding:1vw;
+    }
+
+    a, button{
+        font-family: 'Gibson', sans-serif;
+        color:#834f30;
+        margin: auto;
+        text-align:center;
+       font-size:7vw;
+        word-spacing: 0.5vw;
+    }
+    
+    input[type="file"]::-webkit-file-upload-button {
+        background-color:white;
+        font-family: 'Gibson', sans-serif;
+        color:#834f30;
+        margin: auto;
+        text-align:center;
+        word-spacing: 0.5vw;
+        font-size: 2.3vh !important;
+        text-decoration: none;
+        text-align: center;
+        margin: auto;
+     }
+    
+}
+
+.twitter-share-button{
+    position:absolute !important;
+    z-index: 1 !important;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:65vh;
+}
+
+
+.xl{
+    font-size:10vw !important;
+}
+
+#b{
+    top: 4px;
+    height: 20vh !important;
+    width: 15vw !important;
+
+}
+
+.xl .btn i {
+    top: 4px;
+    height: 20vh !important;
+    width: 15vw !important;
+}
+
+\
+
+.twitter-widget-0{
+    position:absolute !important;
+}
